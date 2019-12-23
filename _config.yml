@@ -1,0 +1,61 @@
+
+exclude:
+  - "/vendor/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "LICENSE.md"
+  - "*.gemspec"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+
+# Site settings
+title: "ZKSprojects, expert in renovatie werken & horeca inrichting"
+subtitle:
+description: "ZKSprojects, expert in renovatie werken & Horeca inrichting"
+keywords: ""
+url:  # the base hostname & protocol for your site
+# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
+baseurl: "/zksprojects.be"
+#cover: "/assets/cover.png"
+#logo: "/assets/logo.png"
+
+
+# jekyll-paginate configuration
+paginate: 5
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# ---------------------------------------------------------------------------- #
+#    1) copy plugins to config:
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
+#
+#    2) make gemfile in root and add the below:
+#   source 'https://rubygems.org'   (this is important for bundle install)
+#   gem 'jekyll-seo-tag'
+#   gem 'jekyll-sitemap'
+#
+#   3)  In command of project type: "bundle install" & then "bundle update"
+# ---------------------------------------------------------------------------- #
+
+# Build settings
+markdown: kramdown
+
+# Google Analytics
+google_analytics: UA-142856361-1
+
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: jekyll
+    desc: "Posts describing Jekyll setup techniques."
+
+  - cat: dummy
+    desc: "Just some placeholder posts, lorem ipsum and the rest."
