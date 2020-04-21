@@ -163,7 +163,7 @@
 		width: 100%;
 	}
 
-	ul.navbar-nav > li:hover > a:after, 
+	ul.navbar-nav > li:hover > a:after,
 	ul.navbar-nav > li.active > a:after{
 		content: '';
 	}
@@ -176,7 +176,7 @@
 		padding-left: 0;
 	}
 
-	.navbar-nav .open .dropdown-menu>li>a, 
+	.navbar-nav .open .dropdown-menu>li>a,
 	.navbar-nav .open .dropdown-menu .dropdown-header{
 		padding: 15px;
 	}
@@ -262,12 +262,12 @@
 	}
 
 	.slide-title{
-		font-size: 16px;
+		font-size: 20px;
 		line-height: 24px;
 	}
 
 	.slide-sub-title{
-		font-size: 28px;
+		font-size: 30px;
 		line-height: normal;
 		margin: 0 0 15px;
 	}
@@ -287,7 +287,7 @@
 	.call-to-action-title{
 		text-align: center;
 	}
-	
+
 	.call-to-action-btn{
 		margin-top: 10px;
 	}
@@ -341,7 +341,7 @@
 	.ts-newsletter:before{
 		background: none;
 	}
-	
+
 
 	/* Latest post */
 
@@ -374,7 +374,7 @@
 		top: 80%;
 	}
 
-	
+
 
 
 }
@@ -512,7 +512,7 @@
 		box-shadow: none;
 	}
 
-	ul.navbar-nav > li:hover > a:after, 
+	ul.navbar-nav > li:hover > a:after,
 	ul.navbar-nav > li.active > a:after{
 		content: '';
 	}
@@ -525,7 +525,7 @@
 		padding-left: 0;
 	}
 
-	.navbar-nav .open .dropdown-menu>li>a, 
+	.navbar-nav .open .dropdown-menu>li>a,
 	.navbar-nav .open .dropdown-menu .dropdown-header{
 		padding: 15px;
 	}
@@ -615,6 +615,7 @@
 
 	#main-slide .slider-content{
 		width: 90%;
+		    padding-left: 22px;
 	}
 
 	#main-slide .slider-content.text-left {
@@ -631,12 +632,12 @@
 	}
 
 	.slide-title{
-		font-size: 16px;
+		font-size: 20px;
 		line-height: 24px;
 	}
 
 	.slide-sub-title{
-		font-size: 26px;
+		font-size: 30px;
 		line-height: normal;
 		margin-top: 0;
 	}
@@ -672,7 +673,7 @@
 	}
 
 	.box-slide-sub-title{
-		font-size: 26px;
+		font-size: 36px;
 	}
 
 	.page-slider-small{
@@ -680,7 +681,7 @@
 		margin-bottom: 20px;
 	}
 
-	
+
 	/* Action */
 
 	.call-to-action-title{
@@ -763,7 +764,7 @@
 	.newsletter-form input{
 		min-width: 320px;
 	}
-	
+
 
 	/* Latest post */
 
@@ -836,7 +837,7 @@
 
 }
 
-/* Extra Small Devices, Phones */ 
+/* Extra Small Devices, Phones */
 @media (max-width : 479px) {
 
 
@@ -866,7 +867,7 @@
 
 }
 
-/* Custom, iPhone Retina */ 
+/* Custom, iPhone Retina */
 @media (max-width : 320px) and (max-width: 478px)  {
 
 
