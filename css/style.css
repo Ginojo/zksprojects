@@ -676,11 +676,28 @@ ul.top-info li p.info-text {
     float: right;
 }
 
+ul.top-info-box1 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
 ul.top-info-box {
     list-style: none;
     margin: 0;
     padding: 0;
     float: right;
+}
+
+ul.top-info-box1 li {
+    position: relative;
+    float: left;
+    margin-left: 0;
+    border-right: 1px solid #dedede;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    padding-right: 25px;
+    margin-right: 25px;
 }
 
 ul.top-info-box li {
@@ -699,11 +716,30 @@ ul.top-info-box li:last-child {
     border-right:0;
 }
 
+ul.top-info-box1 li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right:0;
+}
+
 ul.top-info-box li.last{
     border-right: 0;
 }
 
+ul.top-info-box1 li.last{
+    border-right: 0;
+}
+
 ul.top-info-box li .info-box span.info-icon {
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    margin: 2px 5px 0 0;
+    position: relative;
+}
+
+ul.top-info-box1 li .info-box span.info-icon {
     font-size: 20px;
     display: inline-block;
     text-align: center;
@@ -720,7 +756,21 @@ ul.top-info-box li .info-box .info-box-content {
     flex-direction: column;
 }
 
+ul.top-info-box1 li .info-box .info-box-content {
+    display: inline-block;
+    font-family: Montserrat;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
 ul.top-info-box li .info-box .info-box-title {
+    font-size: 14px;
+    margin-bottom: 8px;
+    line-height: normal;
+}
+
+ul.top-info-box1 li .info-box .info-box-title {
     font-size: 14px;
     margin-bottom: 8px;
     line-height: normal;
@@ -734,34 +784,13 @@ ul.top-info-box li .info-box .info-box-subtitle {
     color: #111;
 }
 
-
-/*-- Search start --*/
-
-ul.top-info-box>li.nav-search {
-    cursor: pointer;
-    padding-left: 30px;
-    margin-left: 30px;
+ul.top-info-box1 li .info-box .info-box-subtitle {
+    margin: 0;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: 700;
+    color: #111;
 }
-
-ul.top-info-box>li.nav-search:before {
-    position: absolute;
-    content: '';
-    background: #ddd;
-    left: 0;
-    width: 1px;
-    height: 40px;
-    top: 50%;
-    margin-top: -10px;
-}
-
-ul.top-info-box>li.nav-search i {
-    font-size: 20px;
-    top: 10px;
-    position: relative;
-    cursor: pointer;
-    color: #999;
-}
-
 
 /* Main navigation */
 

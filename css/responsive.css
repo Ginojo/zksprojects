@@ -32,7 +32,7 @@
 	/* Projects */
 
 	.project-item-title {
-    	font-size: 18px;
+    	font-size: 15px;
 	}
 
 	/* Clients */
@@ -74,7 +74,7 @@
 
 }
 
-/* Small Devices, Tablets */
+/* Small Devices, Tablets --------------------------------------------------------------------------------------------------------- */
 @media (min-width : 768px) and (max-width: 991px) {
 
 	/* top info */
@@ -100,6 +100,30 @@
 		margin-top: 40px;
 		display: inline-block;
 	}
+
+	/*banner*/
+
+	.banner-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 60;
+}
+
+.action-title {
+		color: #fff;
+		margin: 0;
+		margin-left: 0px;
+		line-height: 36px;
+		font-size: 18px;
+		text-transform: uppercase;
+		text-align: center;
+}
+
+.call-to-action-btn {
+	margin-top: 20px;
+	text-align: center;
+}
 
 	/* Navigation breakpoint */
 
@@ -379,8 +403,46 @@
 
 }
 
-/* Small Devices Potrait */
+/* Small Devices Potrait -----------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media (max-width : 767px){
+
+		ul.top-info-box1  {
+
+		display: none;
+
+	}
+
+	.action-title {
+	    color: #fff;
+	    margin: 0;
+	    margin-left: 0px;
+	    line-height: 36px;
+	    font-size: 18px;
+	    text-transform: uppercase;
+	    text-align: center;
+	}
+
+	.call-to-action-btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+	/*BANNER*/
+
+
+	.banner-title {
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 40px;
+		font-weight: 600;
+	}
+
+	.banner-heading h3 {
+		font-size: 20px;
+		font-weight: 600;
+	}
 
 	/* Top bar */
 
@@ -409,7 +471,7 @@
 	}
 
 	.logo-area .logo{
-		padding-bottom: 40px;
+		padding-bottom: 2px;
 	}
 
 	.header-two .logo {
@@ -418,6 +480,7 @@
 
 	ul.top-info-box{
 		float: none;
+		margin-left: -39px;
 	}
 
 	ul.top-info-box li{
@@ -503,7 +566,7 @@
 	}
 
 
-	/* Navigation */
+	/* Navigation ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 	.navbar-collapse{
 		background: none;
@@ -605,11 +668,11 @@
 		color: #333;
 	}
 
-	/* Slideshow */
+	/* Slideshow ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 	#main-slide .item,
 	.page-slider .item{
-		min-height: 450px;
+		min-height: 520px;
 		background-position: 70% 50%;
 	}
 
@@ -634,6 +697,7 @@
 	.slide-title{
 		font-size: 20px;
 		line-height: 24px;
+		font-weight: 600;
 	}
 
 	.slide-sub-title{
@@ -647,10 +711,10 @@
 		font-size: 14px;
 	}
 
-	.slider.btn{
-		font-size: 10px;
-		padding: 10px 15px;
-	}
+	.slider.btn {
+    font-size: 12px;
+    padding: 10px 25px;
+}
 
 	/* Owl slideshow */
 
@@ -713,7 +777,7 @@
     	margin-bottom: 30px;
 	}
 
-	/* Projects */
+	/* Projects ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 	.project-area .title{
 		margin-left: 20px;
@@ -772,7 +836,7 @@
 		margin-bottom: 30px;
 	}
 
-	/* Footer */
+	/* Footer ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 	.action-box{
 		margin-bottom: 30px;
@@ -815,7 +879,7 @@
 		top: 78%;
 	}
 
-	/* News */
+	/* News ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 	.comments-reply {
     	margin: 0;
@@ -867,9 +931,58 @@
 
 }
 
-/* Custom, iPhone Retina */
+/* Custom, iPhone Retina -----------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 @media (max-width : 320px) and (max-width: 478px)  {
 
+
+
+#main-slide .slider-content {
+    width: 90%;
+    padding-left: 1px;
+}
+
+.slide-title{
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.slide-sub-title{
+	font-size: 27px;
+	line-height: normal;
+	margin: 0 0 15px;
+}
+
+.slider-description.lead{
+	font-size: 14px;
+}
+
+.slider.btn{
+	font-size: 12px;
+	padding: 10px 25px;
+}
+
+/*ACTION*/
+
+.action-title {
+    color: #fff;
+    margin: 0;
+    margin-left: 0px;
+    line-height: 36px;
+    font-size: 18px;
+    text-transform: uppercase;
+			text-align: center;
+}
+
+.call-to-action-title{
+	text-align: center;
+	font-size: 20px;
+}
+
+.call-to-action-btn{
+	margin-top: 20px;
+	text-align: center;
+}
 
 
 }
