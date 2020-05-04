@@ -12,6 +12,8 @@
 		padding-left: 15px;
 	}
 
+
+
 }
 
 
@@ -28,6 +30,23 @@
 	.dropdown-menu li a{
 		font-size: 12px;
 	}
+
+
+
+	/* features */
+
+	.img-icon-block:before {
+    position: absolute;
+    content: "";
+    top: -27px;
+    background-color: #c8ab37ff;
+    opacity: .4;
+    width: 80px;
+    right: 60px;
+    height: 80px;
+    border-radius: 50%;
+    z-index: 1;
+}
 
 	/* Projects */
 

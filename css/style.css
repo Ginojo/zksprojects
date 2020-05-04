@@ -1843,6 +1843,10 @@ ul.navbar-nav>li.header-get-a-quote:hover>a:after {
   background-color: #eee;
 }
 
+#ts-service-area p {
+  text-align: justify;
+}
+
 
 
 
